@@ -1,225 +1,237 @@
 div#container
 {
-   width: 1312px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
+    width: 1312px;
+    position: relative;
+    margin: 0 auto 0 auto;
+    text-align: left;
 }
 body
 {
-   background-color: transparent;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
-   text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.1875;
+    margin: 0;
+    text-align: center;
 }
-#Image1
+#image_1
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+    position: absolute;
+    left: 531px;
+    top: 176px;
+    width: 272px;
+    height: 92px;
+    z-index: 1;
 }
-#Editbox1
+#editbox_1
 {
-   border: 1px #808080 solid;
-   background-color: #FFFFFF;
-   background-image: none;
-   color :#000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   padding: 4px 4px 4px 4px;
+    border: 1px #808080 solid;
+    background-color: #FFFFFF;
+    color :#000000;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+    vertical-align: middle;
+}
+#image_2
+{
+    position: absolute;
+    left: 901px;
+    top: 296px;
+    widows: 15px;
+    height: 20px;
+    z-index: 3;
+}
+#search_button
+{
+    border: 1px #F5F5F5 solid;
+    border-radius: 1px;
+    background-color: #F5F5F5;
+    color: #000000;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+}
+#lucky_button
+{
+    border: 1px #F5F5F5 solid;
+    border-radius: 1px;
+    background-color: #F5F5F5;
+    color: #000000;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+}
+#advertising 
+{
+    position: absolute;
+    left: 0px;
+    top: 613px;
+    width: 72px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 6;
+}
+#advertising div
+{
+    text-align: left;
+}
+#advertising span
+{
+    color:#000000;font-family:Arial;font-size:13px;
+}
+#business 
+{
+    position: absolute;
+    left: 73px;
+    top: 613px;
+    width: 63px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 7;
+
+}
+#business div
+{
+    text-align: left;
+}
+#about 
+{
+    position: absolute;
+    left: 135px;
+    top: 613px;
+    width: 72px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 8;
+}
+#about div
+{
+    text-align: left;
+}
+#privacy 
+{
+    position: absolute;
+    left: 995px;
+    top: 613px;
+    width: 72px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 9;
+}
+#privacy div
+{
+    text-align: left;
+}
+#terms 
+{
+    position: absolute;
+    left: 1061px;
+    top: 613px;
+    width: 63px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 10;
+}
+#terms div
+{
+    text-align: left;
+}
+#settings 
+{
+    position: absolute;
+    left: 1119px;
+    top: 613px;
+    width: 72px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 11;
+}
+#settings div
+{
+    text-align: left;
+}
+#use_google_co_ug 
+{
+    position: absolute;
+    left: 1186px;
+    top: 613px;
+    width: 119px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 12;
+}
+#use_google_co_ug div
+{
+    text-align: left;
+}
+#gmail 
+{
+    position: absolute;
+    left: 1092px;
+    top: 21px;
+    width: 72px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 13;
+}
+#gmail div
+{
+    text-align: left;
+}
+#images 
+{
+    position: absolute;
+    left: 1144px;
+    top: 21px;
+    width: 63px;
+    height: 16px;
+    border: 0px #000000 solid;
+    text-align: left;
+    z-index: 14;
+}
+#images div
+{
    text-align: left;
-   vertical-align: middle;
 }
-#Editbox1:focus
+#google_options
 {
-   border-color: #66AFE9;
-   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
+    position: absolute;
+    left: 1208px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+    z-index: 15;
 }
-#Image2
+#google_notification
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+    position: absolute;
+    left: 1244px;
+    top: 17px;
+    width: 23px;
+    height: 23px;
+    z-index: 16;
 }
-#Button1
+#google_profile
 {
-   border: 1px #F5F5F5 solid;
-   border-radius: 1px;
-   background-color: #F5F5F5;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#Button2
-{
-   border: 1px #F5F5F5 solid;
-   border-radius: 1px;
-   background-color: #F5F5F5;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#g_Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text1 div
-{
-   text-align: left;
-}
-#g_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text2 div
-{
-   text-align: left;
-}
-#g_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text3 div
-{
-   text-align: left;
-}
-#g_Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text4 div
-{
-   text-align: left;
-}
-#g_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text5 div
-{
-   text-align: left;
-}
-#g_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text6 div
-{
-   text-align: left;
-}
-#g_Text7 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text7 div
-{
-   text-align: left;
-}
-#g_Text8 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text8 div
-{
-   text-align: left;
-}
-#g_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#g_Text9 div
-{
-   text-align: left;
-}
-#Image3
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Image4
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Image5
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+    position: absolute;
+    left: 1287px;
+    top: 15px;
+    width: 27px;
+    height: 28px;
+    z-index: 17;
 }
 a
 {
@@ -235,92 +247,3 @@ a:hover
    color: #404040;
    text-decoration: underline;
 }
-h1
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 32px;
-   font-style: normal;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-h2
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 27px;
-   font-style: normal;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-h3
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 24px;
-   font-style: normal;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-h4
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 21px;
-   font-style: italic;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-h5
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 19px;
-   font-style: normal;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-h6
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 16px;
-   font-style: normal;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-.CustomStyle
-{
-   font-family: "Courier New";
-   font-weight: bold;
-   font-size: 16px;
-   font-style: normal;
-   text-decoration: none;
-   color: #2E74B5;
-   background-color: transparent;
-}
-
